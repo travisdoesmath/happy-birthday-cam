@@ -22,7 +22,7 @@
         }
 
         h1 {
-            font-size: min(30vh,17vw);
+            font-size: min(10vh,5vw);
             font-family:'Roboto', sans-serif;
             text-align: center;
             margin: auto;
@@ -36,17 +36,5 @@
     <div id="message">
         <h1><a href="http://findtheinvisiblecam.com/">findtheinvisiblecam.com</h1>
     </div>
-    <script>
-        let message = document.querySelector('#message');
-
-        function animate() {
-            message.style.top = `${50 + 0.75*Math.random()}%`;
-            message.style.left = `${50 + 0.5*Math.random()}%`;
-            requestAnimationFrame(animate);
-        }
-
-        requestAnimationFrame(animate);       
-
-    </script>
 </body>
 </html>
